@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom"
 const Navbar = () => {
   const navigate = useNavigate()
   return (
-    <div className="bg-slate-900 border-b border-white pt-2 mb-10">
+    <div className="bg-slate-900 border-b border-white pt-2 sticky">
       <>
         <div className="flex h-16 justify-between">
           <Link
